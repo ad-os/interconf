@@ -1,0 +1,43 @@
+@font-face {
+    font-family: headfont;
+    src: url("assets/fonts/saucer.ttf");
+}
+
+.navbar-wrapper
+{position:relative;
+ }
+
+.topContainerDiv
+{
+	text-align: center;
+}
+
+ .leftlogo
+{
+	float: left;
+	height: 100%;
+	width: 20%;
+}
+ .rightlogo
+{
+	float: right;
+	height: 100%;
+	width: 20%;
+}
+
+.centerlogo {
+	margin: 0 auto;
+	text-align: center;
+	height: 100%;
+	width: 30%;
+}
+
+.logoDiv {
+	height: 120px;
+}
+.container-head
+{
+	text-align: center;
+	font-size: 40px;
+	font-family: headfont;
+}
