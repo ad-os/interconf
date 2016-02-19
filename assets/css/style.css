@@ -3,23 +3,20 @@
     src: url("assets/fonts/saucer.ttf");
 }
 
-.navbar-wrapper
-{position:relative;
- }
+.navbar-wrapper {
+	position:relative;
+}
 
-.topContainerDiv
-{
+.topContainerDiv {
 	text-align: center;
 }
 
- .leftlogo
-{
+.leftlogo {
 	float: left;
 	height: 100%;
 	width: 20%;
 }
- .rightlogo
-{
+ .rightlogo {
 	float: right;
 	height: 100%;
 	width: 20%;
@@ -41,3 +38,38 @@
 	font-size: 40px;
 	font-family: headfont;
 }
+
+.center {
+	text-align: center;
+}
+
+#detailSection {
+	box-shadow: 0 5px 15px 0 rgba(0,0,0,0.25);
+	background-color: #fff;
+}
+
+.sectionHeading {
+	padding: 20px;
+	background-color: #0008FF;
+	font-family: serif;
+	color: #fff;
+}
+
+.sectionSummary {
+	padding: 30px;
+}
+
+.sectionSummaryContent {
+	font-size: large;
+}
+
+.sectionSummaryHeading {
+	color: chocolate;
+	font-size: xx-large;
+}
+
+.part {
+	font-size: large;
+	margin: 0 0 10px 0;
+	font-weight: bold
+} 
