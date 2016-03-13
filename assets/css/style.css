@@ -2,7 +2,14 @@
     font-family: headfont;
     src: url("assets/fonts/saucer.ttf");
 }
-
+.sectionSubHeading
+{
+    padding: 10px;
+    background-color:#6C0000;
+    font-family: serif;
+    font-size: x-large;
+    color: #fff;
+}
 .navbar-wrapper {
 	position:relative;
 }
@@ -59,7 +66,7 @@
 
 .sectionHeading {
 	padding: 20px;
-	background-color: #0008FF;
+	background-color: #6c0000;
 	font-family: serif;
 	font-size: xx-large;
 	color: #fff;

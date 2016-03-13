@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Navbar Template for Bootstrap</title>
+    <title>ICEBU|Track Details</title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -23,7 +23,10 @@
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="assets/js/ie-emulation-modes-warning.js"></script>
+    <link href="assets/css/carousel.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/slider.css" rel="stylesheet"><link rel="stylesheet" href="assets/css/w3.css">
+    <link rel="stylesheet" href="assets/css/font-awesome/css/font-awesome.min.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -34,47 +37,67 @@
 
   <body>
 
-    <div class="container">
-
-      <!-- Static navbar -->
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.html">Home</a>
-          </div>
-          <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contact Us</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Register <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div><!--/.nav-collapse -->
-        </div><!--/.container-fluid -->
-      </nav>
-
-      <!-- Main component for a primary marketing message or call to action -->
-    <section id="detailSection">
-      <h2 class="center sectionHeading">Fire Protection, Plumbing & Drainage Systems in Buildings</h2>
-      <div class="sectionSummary">
-        <h3 class="sectionSummaryHeading">Track Description</h3>
-          <p class="sectionSummaryContent">
-            Causes and Spread of Fire in Buildings, Safety Norms of Buildings, Design of Fire Escapes in High Rise Buildings, Staircase Pressurization, Wet/Dry/Deluge/Pre-action Sprinkler System, Wet Risers, Fire Alarm Systems, Fire Detection Systems, Fire Hydrants, Fire Pumps, Fire Tanks, Hose Reel Cabinets, Sprinklers, Car Parking Fire Protection, Fire Dampers, Fire Piping, UL, ULC Listing Of Fire Products, Fire Piping Joints And Accessories.<br ><br >
-            Plumbing Design for Health Care Facilities, Energy and Resource Conservation in Plumbing Systems, Acoustics in Plumbing Systems, Water Treatment, Central Water Systems, Storm Drainage System, Cold Water Systems, Domestic Water Heating System, Vents, Water Reuse System, Fuel- Gas Piping System, Green Design in Plumbing System, Plumbing/Drainage Faults Solutions, Self Cleaning and Non-Scoring Velocities of Drain Pipes.</p>       
+    <img class="size" src="assets/img/banner-website.jpg" class="centerlogo">
       </div>
-    </section>
+      <div class="navbar-wrapper">
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html">Home</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="index.html#track">Tracks</a></li>
+                <li><a href="dates.html">Important Dates</a></li>
+                <li><a href="committee.html">Committee</a></li>
+                <li><a href="committee.html">Register</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <br>
+      <div class="col-md-4 btnSize">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="dateClass">
+                      <h4 class="marginZero importantDate">IMPORTANT DATES</h4>
+                      <p class="color pStyle"><i class="fa fa-arrow-circle-right"></i><span class="spanClass">CALL FOR ABSRATCT : <span class="bold">10th March</span><span></p>
+                      <p class="color pStyle"><i class="fa fa-arrow-circle-right"></i><span class="spanClass">LAST DATE FOR ABSTRACT SUBMISSION : <span class="bold blink">10th May</span></span></p>
+                      <p class="color pStyle"><i class="fa fa-arrow-circle-right"></i><span class="spanClass">CONFIRMATION AND ACCEPTANCE OF ABSTRACTS : <span class="bold">20th May</span></span></p>
+                      <p class="color pStyle"><i class="fa fa-arrow-circle-right"></i><span class="spanClass">LAST DATE OF SUBMISSION OF FULL LENGTH PAPER : <span class="bold blink">30th August</span></span></p>
+                    </div>
+                  </div>
+                  <div class="col-md-12 topMarginList">
+                    <a href="#"><li class="listStyle btn btn-default"><i class="fa fa-external-link"></i>Registration</li></a><br>
+                    <a href="#"><li class="listStyle btn btn-default"><i class="fa fa-external-link"></i>Tutotrial</li></a><br>
+                    <a href="#"><li class="listStyle btn btn-default"><i class="fa fa-external-link"></i>Paper Submission</li></a><br>
+                    <a href="committee.html"><li class="listStyle btn btn-default"><i class="fa fa-external-link"></i>Committee</li></a><br>
+                    <a href="tour.html"><li class="listStyle btn btn-default"><i class="fa fa-external-link"></i>Tour</li></a><br>
+                    <a href="#"><li class="listStyle btn btn-default"><i class="fa fa-external-link"></i>Sponsors</li></a><br>
+                    <a href="downloads.html"><li class="listStyle btn btn-default"><i class="fa fa-external-link"></i>Downloads</li></a><br>
+                    <a href="visa.html"><li class="listStyle btn btn-default"><i class="fa fa-external-link"></i>Visa Information</li></a><br>
+                    <a href="map.html"><li class="listStyle btn btn-default"><i class="fa fa-external-link"></i>Venue with map</li></a>
+                  </div>
+                </div>
+      </div>
+    <div class="col-md-8">
+      <!-- Main component for a primary marketing message or call to action -->
+      <section id="detailSection">
+        <h2 class="center sectionHeading">Fire Protection, Plumbing & Drainage Systems in Buildings</h2>
+        <div class="sectionSummary">
+          <h3 class="sectionSummaryHeading">Track Description</h3>
+            <p class="sectionSummaryContent">
+              Causes and Spread of Fire in Buildings, Safety Norms of Buildings, Design of Fire Escapes in High Rise Buildings, Staircase Pressurization, Wet/Dry/Deluge/Pre-action Sprinkler System, Wet Risers, Fire Alarm Systems, Fire Detection Systems, Fire Hydrants, Fire Pumps, Fire Tanks, Hose Reel Cabinets, Sprinklers, Car Parking Fire Protection, Fire Dampers, Fire Piping, UL, ULC Listing Of Fire Products, Fire Piping Joints And Accessories.<br ><br >
+              Plumbing Design for Health Care Facilities, Energy and Resource Conservation in Plumbing Systems, Acoustics in Plumbing Systems, Water Treatment, Central Water Systems, Storm Drainage System, Cold Water Systems, Domestic Water Heating System, Vents, Water Reuse System, Fuel- Gas Piping System, Green Design in Plumbing System, Plumbing/Drainage Faults Solutions, Self Cleaning and Non-Scoring Velocities of Drain Pipes.</p>       
+        </div>
+      </section>
 
     </div> <!-- /container -->
 
@@ -87,5 +110,17 @@
     <script src="assets/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script>
+      $('.blink').each(function() {
+          var elem = $(this);
+          setInterval(function() {
+              if (elem.css('visibility') == 'hidden') {
+                  elem.css('visibility', 'visible');
+              } else {
+                  elem.css('visibility', 'hidden');
+              }    
+          }, 100);
+      });
+    </script>
   </body>
 </html>

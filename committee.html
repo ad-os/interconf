@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Navbar Template for Bootstrap</title>
+    <title>ICEBU|Comittee</title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -23,7 +23,10 @@
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="assets/js/ie-emulation-modes-warning.js"></script>
+    <link href="assets/css/carousel.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/slider.css" rel="stylesheet"><link rel="stylesheet" href="assets/css/w3.css">
+    <link rel="stylesheet" href="assets/css/font-awesome/css/font-awesome.min.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -34,228 +37,252 @@
 
   <body>
 
-    <div class="container">
-
-      <!-- Static navbar -->
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.html">Home</a>
+	<img class="size" src="assets/img/banner-website.jpg" class="centerlogo">
+      </div>
+      <div class="navbar-wrapper">
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html">Home</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="index.html#track">Tracks</a></li>
+                <li><a href="dates.html">Important Dates</a></li>
+                <li><a href="committee.html">Committee</a></li>
+                <li><a href="committee.html">Register</a></li>
+              </ul>
+            </div>
           </div>
-          <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contact Us</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Register <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div><!--/.nav-collapse -->
-        </div><!--/.container-fluid -->
-      </nav>
+        </nav>
+      </div>
+      <br>
 
       <!-- Main component for a primary marketing message or call to action -->
-    <section id="detailSection">
-        <h2 class="center sectionHeading">Committee Members</h2>
-        <div class="sectionSummary">
-			
-			<div style="padding-left: 10px">
-				<a>
-					<h3><span>Chief Patron</span></h3>
+    <div class="col-md-4 btnSize">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="dateClass">
+                      <h4 class="marginZero importantDate">IMPORTANT DATES</h4>
+                      <p class="color pStyle"><i class="fa fa-arrow-circle-right"></i><span class="spanClass">CALL FOR ABSRATCT : <span class="bold">10th March</span><span></p>
+                      <p class="color pStyle"><i class="fa fa-arrow-circle-right"></i><span class="spanClass">LAST DATE FOR ABSTRACT SUBMISSION : <span class="bold blink">10th May</span></span></p>
+                      <p class="color pStyle"><i class="fa fa-arrow-circle-right"></i><span class="spanClass">CONFIRMATION AND ACCEPTANCE OF ABSTRACTS : <span class="bold">20th May</span></span></p>
+                      <p class="color pStyle"><i class="fa fa-arrow-circle-right"></i><span class="spanClass">LAST DATE OF SUBMISSION OF FULL LENGTH PAPER : <span class="bold blink">30th August</span></span></p>
+                    </div>
+                  </div>
+                  <div class="col-md-12 topMarginList">
+                    <a href="#"><li class="listStyle btn btn-default"><i class="fa fa-external-link"></i>Registration</li></a><br>
+                    <a href="#"><li class="listStyle btn btn-default"><i class="fa fa-external-link"></i>Tutotrial</li></a><br>
+                    <a href="#"><li class="listStyle btn btn-default"><i class="fa fa-external-link"></i>Paper Submission</li></a><br>
+                    <a href="committee.html"><li class="listStyle btn btn-default"><i class="fa fa-external-link"></i>Committee</li></a><br>
+                    <a href="tour.html"><li class="listStyle btn btn-default"><i class="fa fa-external-link"></i>Tour</li></a><br>
+                    <a href="#"><li class="listStyle btn btn-default"><i class="fa fa-external-link"></i>Sponsors</li></a><br>
+                    <a href="downloads.html"><li class="listStyle btn btn-default"><i class="fa fa-external-link"></i>Downloads</li></a><br>
+                    <a href="visa.html"><li class="listStyle btn btn-default"><i class="fa fa-external-link"></i>Visa Information</li></a><br>
+                    <a href="map.html"><li class="listStyle btn btn-default"><i class="fa fa-external-link"></i>Venue with map</li></a>
+                  </div>
+                </div>
+      </div>
+    <div class="col-md-8">
+	    <section id="detailSection">
+	        <h2 class="center sectionHeading">Committee Members</h2>
+	        <div class="sectionSummary">
+			  <div style="border-style:solid;border-color:#6C0000;border-width:0px 2px 2px 2px;">
+				<div>
+					<a>
+						<h4 class="center sectionSubHeading">Chief Patron</h4>
+					</a>
+				</div>
 				
-				</a>
+					<div style="text-align:center;">
+						<span>Talat Ahmed (Vice Chancellor)</span>
+						<br>
+					</div>
+				
+				<div>
+					<a>
+						<h4 class="center sectionSubHeading">Patron</h4>
+					</a>
+				</div>
+				
+					<div style="text-align:center;">
+					
+						<span >Mohammad Shakeel (Dean, Faculty of Engineering & Technology)</span>
+					</div>
+				
+				<div >
+					<a>
+						<h4 class="center sectionSubHeading">Chairman</h4>
+					</a>
+				</div>
+				
+					<div style="text-align:center;">
+					
+						<span >Jamshed A. Usmani (Head, Department of Mechanical Engineering)</span>
+					</div>
+					
+				<div>
+					<a>
+						<h4 class="center sectionSubHeading">Co-Chairman</h4>
+					</a>
+				</div>
+				
+					<div style="text-align:center;">
+					
+						<span >M.Emran Khan</span>
+					</div>
+					
+				<div>
+					<a>
+						<h4 class="center sectionSubHeading">Organising Secretary</h4>
+					</a>
+				</div>
+				
+					<div style="text-align:center;">
+					
+						<span >M. N.Karimi</span>
+					</div>
+					
+				<div>
+					<a>
+						<h4 class="center sectionSubHeading">Convener</h4>
+					</a>
+				</div>
+				
+					<div style="text-align:center;">
+						<span >Abid Haleem</span>
+					</div>
+					
+				<div>
+					<a>
+						<h4 class="center sectionSubHeading">Event Management & Publicity Chairs</h4>
+					</a>
+				</div>
+				
+					<div style="text-align:center;">
+						<span >Zahid Akhter Khan</span>
+						<br><span >Arshad Noor Siddiqui</span>
+					</div>
+					
+				<div>
+					<a>
+						<h4 class="center sectionSubHeading">Editors</h4>
+					</a>
+				</div>
+				
+					<div style="text-align:center;">
+						<span >M.N.Karimi</span>
+						<br><span >M.M.Hasan</span>
+					</div>
+					
+				<div>
+					<a>
+						<h4 class="center sectionSubHeading">Review Committee</h4>
+					</a>
+				</div>
+				
+					<div style="text-align:center;">
+						<span >Zulquernain Mallick</span>
+						<br><span >Haleema Begum</span>
+						<br><span >Ali Hasan</span>
+						<br><span >Abdur Rahim</span>
+						<br><span >Mohammad Asjad</span>
+						<br><span >Mohammad Javaid</span>
+					</div>
+					
+				<div>
+					<a>
+						<h4 class="center sectionSubHeading">General Chair</h4>
+					</a>
+				</div>
+				
+					<div style="text-align:center;">
+						<span >Mohd. Suhaib</span>
+					</div>
+					
+					
+				<div>
+					<a>
+						<h4 class="center sectionSubHeading">Track-Wise Chair</h4>
+					</a>
+				</div>
+				
+					<div style="text-align:center;">
+						<span style="color:Black;font-weight:bold;">Building Architecture</span>	
+					</div>
+					<div style="text-align:center;">
+						<span >Abdul Halim Babbu</span>
+						<br><span >Aas Mohammad</span><br><br>
+					</div>
+					
+					<div style="text-align:center;">
+						<span style="color:Black;font-weight:bold;">Fire Protection, Plumbing & Drainage Systems in Buildings</span>	
+					</div>
+					<div style="text-align:center;">
+						<span >S.M.Muzakkir</span>
+						<br><span >Sabah Khan</span><br><br>
+					</div>
+					
+					<div style="text-align:center;">
+						<span style="color:Black;font-weight:bold;">Instrumentation & Controls in Buildings (Building Automation)</span>	
+					</div>
+					<div style="text-align:center;">
+						<span >Mohd Islam</span>
+						<br><span >Shahida Khatoon</span><br><br>
+					</div>
+					
+					<div style="text-align:center;">
+						<span style="color:Black;font-weight:bold;">HVAC in Buildings; Cold Storages</span>	
+					</div>
+					<div style="text-align:center;">
+						<span >M. Emran Khan</span>
+						<br><span >Faizan Sherwani</span><br><br>
+					</div>
+					
+					<div style="text-align:center;">
+						<span style="color:Black;font-weight:bold;">Green Buildings</span>	
+					</div>
+					<div style="text-align:center;">
+						<span >Sirajuddin Ahmed</span>
+						<br><span >Islam Nawaz</span><br><br>
+					</div>
+				
+				<div>
+					<a>
+						<h4 class="center sectionSubHeading">Advisory Committee</h4>
+					</a>
+				</div>
+				
+					<div style="text-align:center;">
+						<span >Tariq Muneer Edibrigh University (U.K.)</span>
+						<br><span >G.N.Tiwari(I.I.T Delhi)</span>
+						<br><span >Avinash Chandra(I.I.T Delhi)</span>
+						<br><span >M.P.Singh</span>
+						<br><span >Ibrahim Al Darrab (K.S.A )</span>
+						<br><span >Rafiqul Islam U.S.A</span>
+						<br><span >Mohammad Arif (Dean, University Sal ford U.S.A.)</span>
+						<br><span >S.M.Yahya (I.I.T Delhi)</span>
+						<br><span >Wan Mohammad Wan Mansoor</span>
+						<br><span >Sushil (I.I.T Delhi)</span>
+						<br><span >G A Quadir (Malaysia)</span>
+						<br><span >Mustafa Ghulam (Australia)</span>
+						<br><span >Sadrul Islam (Bangladesh)</span>
+						<br><span >S.K.Garg(PVC, DTU)</span>
+					</div>
+			  </div>
 			</div>
-			
-				<div style="padding-left: 18px">
-					<span >Talat Ahmed (Vice Chancellor)</span>
-					<br>
-				</div>
-			
-			<div style="padding-left: 10px">
-				<a>
-					<h3><span>Patron</span></h3>
-				</a>
-			</div>
-			
-				<div style="padding-left: 18px">
-					<span >Mohammad Shakeel (Dean, Faculty of Engineering & Technology)</span>
-				</div>
-			
-			<div style="padding-left: 10px">
-				<a>
-					<h3><span>Chairman</span></h3>
-				</a>
-			</div>
-			
-				<div style="padding-left: 18px">
-					<span >Jamshed A. Usmani (Head, Department of Mechanical Engineering)</span>
-				</div>
-				
-			<div style="padding-left: 10px">
-				<a>
-					<h3><span>Co-Chairman</span></h3>
-				</a>
-			</div>
-			
-				<div style="padding-left: 18px">
-					<span >M.Emran Khan</span>
-				</div>
-				
-			<div style="padding-left: 10px">
-				<a>
-					<h3><span>Organising Secretary</span></h3>
-				</a>
-			</div>
-			
-				<div style="padding-left: 18px">
-					<span >M. N.Karimi</span>
-				</div>
-				
-			<div style="padding-left: 10px">
-				<a>
-					<h3><span>Convener</span></h3>
-				</a>
-			</div>
-			
-				<div style="padding-left: 18px">
-					<span >Abid Haleem</span>
-				</div>
-				
-			<div style="padding-left: 10px">
-				<a>
-					<h3><span>Event Management & Publicity Chairs</span></h3>
-				</a>
-			</div>
-			
-				<div style="padding-left: 18px">
-					<span >Zahid Akhter Khan</span>
-					<br><span >Arshad Noor Siddiqui</span>
-				</div>
-				
-			<div style="padding-left: 10px">
-				<a>
-					<h3><span>Editors</span></h3>
-				</a>
-			</div>
-			
-				<div style="padding-left: 18px">
-					<span >M.N.Karimi</span>
-					<br><span >M.M.Hasan</span>
-				</div>
-				
-			<div style="padding-left: 10px">
-				<a>
-					<h3><span>Review Committee</span></h3>
-				</a>
-			</div>
-			
-				<div style="padding-left: 18px">
-					<span >Zulquernain Mallick</span>
-					<br><span >Haleema Begum</span>
-					<br><span >Ali Hasan</span>
-					<br><span >Abdur Rahim</span>
-					<br><span >Mohammad Asjad</span>
-					<br><span >Mohammad Javaid</span>
-				</div>
-				
-			<div style="padding-left: 10px">
-				<a>
-					<h3><span>General Chair</span></h3>
-				</a>
-			</div>
-			
-				<div style="padding-left: 18px">
-					<span >Mohd. Suhaib</span>
-				</div>
-				
-				
-			<div style="padding-left: 10px">
-				<a>
-					<h3><span>Track-Wise Chair</span></h3>
-				</a>
-			</div>
-			
-				<div style="padding-left: 18px">
-					<span style="color:Black;font-weight:bold;">Building Architecture</span>	
-				</div>
-				<div style="padding-left: 35px">
-					<span >Abdul Halim Babbu</span>
-					<br><span >Aas Mohammad</span><br><br>
-				</div>
-				
-				<div style="padding-left: 18px">
-					<span style="color:Black;font-weight:bold;">Fire Protection, Plumbing & Drainage Systems in Buildings</span>	
-				</div>
-				<div style="padding-left: 35px">
-					<span >S.M.Muzakkir</span>
-					<br><span >Sabah Khan</span><br><br>
-				</div>
-				
-				<div style="padding-left: 18px">
-					<span style="color:Black;font-weight:bold;">Instrumentation & Controls in Buildings (Building Automation)</span>	
-				</div>
-				<div style="padding-left: 35px">
-					<span >Mohd Islam</span>
-					<br><span >Shahida Khatoon</span><br><br>
-				</div>
-				
-				<div style="padding-left: 18px">
-					<span style="color:Black;font-weight:bold;">HVAC in Buildings; Cold Storages</span>	
-				</div>
-				<div style="padding-left: 35px">
-					<span >M. Emran Khan</span>
-					<br><span >Faizan Sherwani</span><br><br>
-				</div>
-				
-				<div style="padding-left: 18px">
-					<span style="color:Black;font-weight:bold;">Green Buildings</span>	
-				</div>
-				<div style="padding-left: 35px">
-					<span >Sirajuddin Ahmed</span>
-					<br><span >Islam Nawaz</span><br><br>
-				</div>
-			
-			<div style="padding-left: 10px">
-				<a>
-					<h3><span>Advisory Committee</span></h3>
-				</a>
-			</div>
-			
-				<div style="padding-left: 18px">
-					<span >Tariq Muneer Edibrigh University (U.K.)</span>
-					<br><span >G.N.Tiwari(I.I.T Delhi)</span>
-					<br><span >Avinash Chandra(I.I.T Delhi)</span>
-					<br><span >M.P.Singh</span>
-					<br><span >Ibrahim Al Darrab (K.S.A )</span>
-					<br><span >Rafiqul Islam U.S.A</span>
-					<br><span >Mohammad Arif (Dean, University Sal ford U.S.A.)</span>
-					<br><span >S.M.Yahya (I.I.T Delhi)</span>
-					<br><span >Wan Mohammad Wan Mansoor</span>
-					<br><span >Sushil (I.I.T Delhi)</span>
-					<br><span >G A Quadir (Malaysia)</span>
-					<br><span >Mustafa Ghulam (Australia)</span>
-					<br><span >Sadrul Islam (Bangladesh)</span>
-					<br><span >S.K.Garg(PVC, DTU)</span>
-				</div>
-		
-		</div>
-    
-    
-		<br>
+	    
+	    
+			<br>
 
-	</section>
-
+		</section>
+	</div>
     </div> <!-- /container -->
 
 
@@ -267,5 +294,17 @@
     <script src="assets/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script>
+      $('.blink').each(function() {
+          var elem = $(this);
+          setInterval(function() {
+              if (elem.css('visibility') == 'hidden') {
+                  elem.css('visibility', 'visible');
+              } else {
+                  elem.css('visibility', 'hidden');
+              }    
+          }, 100);
+      });
+    </script>
   </body>
 </html>
