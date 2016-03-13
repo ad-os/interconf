@@ -244,7 +244,7 @@ a:hover {
 }
 
 .speakers {
-	min-height: 850px;
+	min-height: 610px;
 	border: 2px solid;
 }
 
@@ -313,5 +313,9 @@ footer {
 	font-size: 30px;
 	padding: 10px;
 	font-family: monospace;
+}
+
+.banner {
+	padding: 0;
 }
 
