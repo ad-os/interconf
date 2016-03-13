@@ -12,6 +12,10 @@
 	height: 400px;
 }
 
+.size {
+	height: 180px;
+}
+
 .topContainerDiv {
 	text-align: center;
 }
@@ -78,6 +82,236 @@
 	font-size: large;
 	margin: 0 0 10px 0;
 	font-weight: bold
+}
+
+.topPadding {
+	padding-top: 20px; 
 } 
 
+.textSize {
+	height: 100px;
+}
+
+.noStyle {
+	padding: 0;
+	margin: 0;
+}
+
+.logoContainerWidth {
+	width: 260px;
+}
+
+.textContainerWidth {
+	width: 550px;
+}
+
+.topMargin {
+	margin-top: 25px;
+}
+
+.firstLine {
+	font-size: 21px;
+	color: #A4181B;
+	font-family: serif;
+}
+
+.secondLine {
+	margin-top: 10px;
+	font-size: 43px;
+	color: #006766;
+	font-family: monospace;
+}
+
+#navbar {
+	height: 50px;
+}
+
+.navbar {
+	margin: 0;
+	background-color: #440203;
+}
+
+.size {
+	width: 100%;
+	height: 160px;
+}
+
+.navbar-wrapper {
+	margin-top: 0;
+}
+.small-container
+{
+	width: 220px;
+}
+.small-text{
+	font-size:10pt
+}
+
+a {
+  color: #5b5b5b;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.sidebar {
+	height: 100%;
+	background-color: #4453A2
+	font-size: 10pt;
+	padding-left: 60px;
+	text-align:left;
+	top :0;
+	margin-right: 10px;
+}
+
+.listStyle {
+	list-style: none;
+	height: 35px;
+	background-color: #A1171C;
+	color: black;
+}
+
+a {
+	text-decoration: none;
+}
+
+.width {
+	height: 450px;
+}
+
+.btnSize {
+	width: 320px;
+}
+
+.btn {
+	padding: 5px;
+	width: 100%;
+	text-align: left;
+}
+
+.topMarginList {
+	margin-top: 10px;
+}
+
+.dateClass {
+	border: 2px solid #A1171C;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.color {
+	color: black;
+}
+
+.marginZero {
+	margin: 0;
+}
+
+.importantDate {
+	background-color:  #A1171C;
+	font-family: monospace;
+	color: white;
+	padding: 5px;
+	text-align: center;
+}
+
+.pStyle {
+	margin: 0;
+	padding: 5px 5px 5px 5px;
+	font-family: monospace;
+}
+
+#myCarousel {
+	margin-bottom: 20px;
+}
+
+.fa {
+	padding: 5px;
+}
+
+.spanClass {
+	color:  #A1171C;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.speakers {
+	min-height: 850px;
+	border: 2px solid;
+}
+
+.speakerHeading {
+	margin-top: 250px;
+	color: black;
+}
+
+.themeColor {
+	color:  #A1171C;
+}
+
+.blackColor {
+	color: black;
+}
+
+.trackListStyle {
+	list-style: none;
+	color: black;
+}
+
+.noPadding {
+	padding: 0;
+}
+
+.trackList {
+	padding: 10px;
+	border-radius: 5px;
+	background-color: #A1171C;
+}
+
+.cardImg {
+	width: 100%;
+}
+
+.trackMargin {
+	margin-top: 20px;
+}
+
+.colMargin {
+	margin-top: 20px;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+footer {
+	margin: 0;
+	padding: 0;
+}
+
+.well {
+	margin: 0; 
+	height: 100px;
+}
+
+.well a:hover {
+	color: blue;
+}
+
+.well a {
+	float: right;
+	color: black;
+	font-size: 30px;
+	padding: 10px;
+	font-family: monospace;
+}
 
