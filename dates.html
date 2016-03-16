@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Navbar Template for Bootstrap</title>
+    <title>ICEBU|Comittee</title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -23,7 +23,10 @@
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="assets/js/ie-emulation-modes-warning.js"></script>
+    <link href="assets/css/carousel.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/slider.css" rel="stylesheet"><link rel="stylesheet" href="assets/css/w3.css">
+    <link rel="stylesheet" href="assets/css/font-awesome/css/font-awesome.min.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -34,39 +37,60 @@
 
   <body>
 
-    <div class="container">
-
-      <!-- Static navbar -->
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.html">Home</a>
+	<img class="size" src="assets/img/banner-website.jpg" class="centerlogo">
+      </div>
+      <div class="navbar-wrapper">
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html">Home</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="index.html#track">Tracks</a></li>
+                <li><a href="dates.html">Important Dates</a></li>
+                <li><a href="committee.html">Committee</a></li>
+                <li><a href="register.html">Register</a></li>
+              </ul>
+            </div>
           </div>
-          <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contact Us</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Register <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div><!--/.nav-collapse -->
-        </div><!--/.container-fluid -->
-      </nav>
+        </nav>
+      </div>
+      <br>
 
       <!-- Main component for a primary marketing message or call to action -->
-    <section id="detailSection">
+    <div class="col-md-4 btnSize">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="dateClass">
+                      <h4 class="marginZero importantDate">IMPORTANT DATES</h4>
+                      <p class="color pStyle"><i class="fa fa-arrow-circle-right"></i><span class="spanClass">CALL FOR ABSRATCT : <span class="bold">30th March</span><span></p>
+                <p class="color pStyle"><i class="fa fa-arrow-circle-right"></i><span class="spanClass">LAST DATE FOR ABSTRACT SUBMISSION : <span class="bold blink">30th May</span></span></p>
+                <p class="color pStyle"><i class="fa fa-arrow-circle-right"></i><span class="spanClass">CONFIRMATION AND ACCEPTANCE OF ABSTRACTS : <span class="bold">10th June</span></span></p>
+                <p class="color pStyle"><i class="fa fa-arrow-circle-right"></i><span class="spanClass">LAST DATE OF SUBMISSION OF FULL LENGTH PAPER : <span class="bold blink">30th July</span></span></p>
+                    </div>
+                  </div>
+                  <div class="col-md-12 topMarginList">
+                    <a href="register.html"><li class="listStyle btn btn-default"><i class="fa fa-external-link"></i>Registration</li></a><br>
+					<a href="tutorial.html"><li class="listStyle btn btn-default"><i class="fa fa-external-link"></i>Tutotrial</li></a><br>
+					<a href="paper_submission.html"><li class="listStyle btn btn-default"><i class="fa fa-external-link"></i>Paper Submission</li></a><br>
+					<a href="committee.html"><li class="listStyle btn btn-default"><i class="fa fa-external-link"></i>Committee</li></a><br>
+					<a href="tour.html"><li class="listStyle btn btn-default"><i class="fa fa-external-link"></i>Tour</li></a><br>
+					<a href="sponsors.html"><li class="listStyle btn btn-default"><i class="fa fa-external-link"></i>Sponsors</li></a><br>
+					<a href="downloads.html"><li class="listStyle btn btn-default"><i class="fa fa-external-link"></i>Downloads</li></a><br>
+					<a href="visa.html"><li class="listStyle btn btn-default"><i class="fa fa-external-link"></i>Visa Information</li></a><br>
+					<a href="map.html"><li class="listStyle btn btn-default"><i class="fa fa-external-link"></i>Venue with map</li></a>
+                  </div>
+                </div>
+      </div>
+    <div class="col-md-8">
+	    <section id="detailSection">
         <h2 class="center sectionHeading">Important Dates</h2>
         <div class="sectionSummary">
 			
@@ -78,25 +102,25 @@
 			</div>
 			
 			<div style="padding-left: 18px">
-				<span >Call for Papers: </span>
-				<span style="color:Black;font-weight:bold;">April 15, 2016</span>
+				<span >Call for Abstract: </span>
+				<span style="color:Black;font-weight:bold;">March 30, 2016</span>
             
             
-				<span ><br>Last Date of Submission: </span>
-				<span style="color:Black;font-weight:bold;">July 30, 2016</span>
+				<span ><br>Last Date of Abstract Submission: </span>
+				<span style="color:Black;font-weight:bold;">May 30, 2016</span>
             
             
-				<span ><br>Confirmation of Acceptance: </span>
-				<span style="color:Black;font-weight:bold;">October 1, 2016</span>
+				<span ><br>Confirmation of Acceptance of Abstract: </span>
+				<span style="color:Black;font-weight:bold;">June 10, 2016</span>
 				
-				<span ><br>Final paper Submission & Author's Registeration: </span>
-				<span style="color:Black;font-weight:bold;">October 15, 2016</span>	
+				<span ><br>Last Date of Submission of Full Length Paper: </span>
+				<span style="color:Black;font-weight:bold;">July 30, 2016</span>	
 				
-				<span ><br>To Publisher: </span>
-				<span style="color:Black;font-weight:bold;">November 1, 2016</span>	
+				<span ><br>Acceptance of Draft Paper: </span>
+				<span style="color:Black;font-weight:bold;">August 30, 2016</span>	
 				
-				<span ><br>From the Publisher: </span>
-				<span style="color:Black;font-weight:bold;">November 20, 2016</span>	
+				<span ><br>Last Date of Registration: </span>
+				<span style="color:Black;font-weight:bold;">October	 15, 2016</span>
             
 				<br>
 			</div>
@@ -118,8 +142,8 @@
     
 		<br>
 
-	</section>
-
+		</section>
+	</div>
     </div> <!-- /container -->
 
 
@@ -131,5 +155,17 @@
     <script src="assets/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script>
+      $('.blink').each(function() {
+          var elem = $(this);
+          setInterval(function() {
+              if (elem.css('visibility') == 'hidden') {
+                  elem.css('visibility', 'visible');
+              } else {
+                  elem.css('visibility', 'hidden');
+              }    
+          }, 100);
+      });
+    </script>
   </body>
 </html>
