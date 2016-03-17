@@ -445,3 +445,7 @@ div.desc {
   width: 146px;
   height: 161px;
 }
+
+.width {
+  width: 100%;
+}
