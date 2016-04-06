@@ -252,8 +252,10 @@ a:hover {
 }
 
 .speakers {
-	min-height: 610px;
-	border: 2px solid;
+	transform: translateY(-50%);
+  color: black;
+  text-align: justify;
+  line-height: 2
 }
 
 .speakerHeading {
@@ -447,5 +449,9 @@ div.desc {
 }
 
 .width {
-  width: 100%;
+  width: 70%;
+}
+
+.img-width {
+  width: 200px;
 }
