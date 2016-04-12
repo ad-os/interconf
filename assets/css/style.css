@@ -251,6 +251,15 @@ a:hover {
 	text-decoration: none;
 }
 
+.tutorials_other_details a {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.tutorials_other_details a:hover {
+  color: blue;
+}
+
 .speakers {
 	transform: translateY(-50%);
   color: black;
