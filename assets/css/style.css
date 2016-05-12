@@ -2,406 +2,411 @@
     font-family: headfont;
     src: url("assets/fonts/saucer.ttf");
 }
-.sectionSubHeading
-{
+
+.sectionSubHeading {
     padding: 10px;
-    background-color:#6C0000;
+    background-color: #6C0000;
     font-family: serif;
     font-size: x-large;
     color: #fff;
 }
+
 .navbar-wrapper {
-	position:relative;
+    position: relative;
 }
 
 .card {
-	width: 100%;
-	height: 400px;
+    width: 100%;
+    height: 400px;
 }
 
 .size {
-	height: 180px;
+    height: 180px;
 }
 
 .topContainerDiv {
-	text-align: center;
+    text-align: center;
 }
 
 .leftlogo {
-	float: left;
-	height: 100%;
-	width: 20%;
+    float: left;
+    height: 100%;
+    width: 20%;
 }
- .rightlogo {
-	float: right;
-	height: 100%;
-	width: 20%;
+
+.rightlogo {
+    float: right;
+    height: 100%;
+    width: 20%;
 }
 
 .centerlogo {
-	margin: 0 auto;
-	text-align: center;
-	height: 100%;
-	width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    height: 100%;
+    width: 30%;
 }
 
 .logoDiv {
-	height: 120px;
+    height: 120px;
 }
-.container-head
-{
-	text-align: center;
-	font-size: 40px;
-	font-family: headfont;
+
+.container-head {
+    text-align: center;
+    font-size: 40px;
+    font-family: headfont;
 }
 
 .center {
-	text-align: center;
+    text-align: center;
 }
 
 #detailSection {
-	box-shadow: 0 5px 15px 0 rgba(0,0,0,0.25);
-	background-color: #fff;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+    background-color: #fff;
 }
 
 .sectionHeading {
-	padding: 20px;
-	background-color: #6c0000;
-	font-family: serif;
-	font-size: xx-large;
-	color: #fff;
+    padding: 20px;
+    background-color: #6c0000;
+    font-family: serif;
+    font-size: xx-large;
+    color: #fff;
 }
 
 .sectionSummary {
-	padding: 30px;
+    padding: 30px;
 }
 
 .sectionSummaryContent {
-	font-size: large;
+    font-size: large;
 }
 
 .sectionSummaryHeading {
-	color: chocolate;
-	font-size: xx-large;
+    color: chocolate;
+    font-size: xx-large;
 }
 
 .part {
-	font-size: large;
-	margin: 0 0 10px 0;
-	font-weight: bold
+    font-size: large;
+    margin: 0 0 10px 0;
+    font-weight: bold
 }
 
 .topPadding {
-	padding-top: 20px; 
-} 
+    padding-top: 20px;
+}
 
 .textSize {
-	height: 100px;
+    height: 100px;
 }
 
 .noStyle {
-	padding: 0;
-	margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
 .logoContainerWidth {
-	width: 260px;
+    width: 260px;
 }
 
 .textContainerWidth {
-	width: 550px;
+    width: 550px;
 }
 
 .topMargin {
-	margin-top: 25px;
+    margin-top: 25px;
 }
 
 .firstLine {
-	font-size: 21px;
-	color: #A4181B;
-	font-family: serif;
+    font-size: 21px;
+    color: #A4181B;
+    font-family: serif;
 }
 
 .secondLine {
-	margin-top: 10px;
-	font-size: 43px;
-	color: #006766;
-	font-family: monospace;
+    margin-top: 10px;
+    font-size: 43px;
+    color: #006766;
+    font-family: monospace;
 }
 
 #navbar {
-	height: 50px;
+    height: 50px;
 }
 
 .navbar {
-	margin: 0;
-	background-color: #440203;
+    margin: 0;
+    background-color: #440203;
 }
 
 .size {
-	width: 100%;
-	height: 160px;
+    width: 100%;
+    height: 160px;
 }
 
 .navbar-wrapper {
-	margin-top: 0;
+    margin-top: 0;
 }
-.small-container
-{
-	width: 220px;
+
+.small-container {
+    width: 220px;
 }
-.small-text{
-	font-size:10pt
+
+.small-text {
+    font-size: 10pt
 }
 
 a {
-  color: #5b5b5b;
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #5b5b5b;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .sidebar {
-	height: 100%;
-	background-color: #4453A2
-	font-size: 10pt;
-	padding-left: 60px;
-	text-align:left;
-	top :0;
-	margin-right: 10px;
+    height: 100%;
+    background-color: #4453A2
+    font-size: 10pt;
+    padding-left: 60px;
+    text-align: left;
+    top: 0;
+    margin-right: 10px;
 }
 
 .listStyle {
-	list-style: none;
-	height: 40px;
-	background-color: #A1171C;
-	color: white;
-	font-weight:bold;
+    list-style: none;
+    height: 40px;
+    background-color: #A1171C;
+    color: white;
+    font-weight: bold;
 }
 
 a {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 .width {
-	height: 450px;
+    height: 450px;
 }
 
 .btnSize {
-	width: 320px;
+    width: 320px;
 }
 
 .btn {
-	padding: 5px;
-	width: 100%;
-	text-align: left;
+    padding: 5px;
+    width: 100%;
+    text-align: left;
 }
 
 .topMarginList {
-	margin-top: 10px;
+    margin-top: 10px;
 }
 
 .dateClass {
-	border: 2px solid #A1171C;
+    border: 2px solid #A1171C;
 }
 
 .bold {
-	font-weight: bold;
+    font-weight: bold;
 }
 
 .color {
-	color: black;
+    color: black;
 }
 
 .marginZero {
-	margin: 0;
+    margin: 0;
 }
 
 .importantDate {
-	background-color:  #A1171C;
-	font-family: monospace;
-	color: white;
-	padding: 5px;
-	text-align: center;
+    background-color: #A1171C;
+    font-family: monospace;
+    color: white;
+    padding: 5px;
+    text-align: center;
 }
 
 .pStyle {
-	margin: 0;
-	padding: 5px 5px 5px 5px;
-	font-family: monospace;
+    margin: 0;
+    padding: 5px 5px 5px 5px;
+    font-family: monospace;
 }
 
 #myCarousel {
-	margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .fa {
-	padding: 5px;
+    padding: 5px;
 }
 
 .spanClass {
-	color:  #A1171C;
+    color: #A1171C;
 }
 
 a {
-	color: black;
-	text-decoration: none;
+    color: black;
+    text-decoration: none;
 }
 
 a:hover {
-	color: white;
-	text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 
 .tutorials_other_details a {
-  font-size: 20px;
-  font-weight: bold;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .tutorials_other_details a:hover {
-  color: blue;
+    color: blue;
 }
 
 .speakers {
-	transform: translateY(-50%);
-  color: black;
-  text-align: justify;
-  line-height: 2
+    transform: translateY(-50%);
+    color: black;
+    text-align: justify;
+    line-height: 2
 }
 
 .speakerHeading {
-	margin-top: 250px;
-	color: black;
+    margin-top: 250px;
+    color: black;
 }
 
 .themeColor {
-	color:  #A1171C;
+    color: #A1171C;
 }
 
 .blackColor {
-	color: black;
+    color: black;
 }
 
 .trackListStyle {
-	list-style: none;
-	color: black;
+    list-style: none;
+    color: black;
 }
 
 .noPadding {
-	padding: 0;
+    padding: 0;
 }
 
 .trackList {
-	padding: 10px;
-	border-radius: 5px;
-	background-color: #A1171C;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #A1171C;
 }
 
 .cardImg {
-	width: 100%;
+    width: 100%;
 }
 
 .trackMargin {
-	margin-top: 20px;
+    margin-top: 20px;
 }
 
 .colMargin {
-	margin-top: 20px;
+    margin-top: 20px;
 }
 
 body {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 footer {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .well {
-	margin: 0; 
-	height: 100px;
+    margin: 0;
+    height: 100px;
 }
 
 .well a:hover {
-	color: blue;
+    color: blue;
 }
 
 .well a {
-	float: right;
-	color: black;
-	font-size: 30px;
-	padding: 10px;
-	font-family: monospace;
+    float: right;
+    color: black;
+    font-size: 30px;
+    padding: 10px;
+    font-family: monospace;
 }
 
 .banner {
-	padding: 0;
+    padding: 0;
 }
 
 table {
-	border-collapse: collapse;
-	width: 100%;
-	
+    border-collapse: collapse;
+    width: 100%;
+
 }
 
-th{
-	padding: 20px;
-	padding-left:40px;
-	padding-right:40px;
-	text-align: left;
-	background-color:#A1171C;
-	border: 1px solid black;
+th {
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: left;
+    background-color: #A1171C;
+    border: 1px solid black;
 }
-		
-td{
-	padding: 20px;
-	padding-left:40px;
-	padding-right:40px;
-	text-align: left;
-	border-bottom: 1px solid #ddd;
-	border: 1px solid black;	
+
+td {
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    border: 1px solid black;
 }
-		
-tr:hover{background-color:#f5f5f5}
+
+tr:hover {
+    background-color: #f5f5f5
+}
 
 .button {
-  display: inline-block;
-  border-radius: 4px;
-  background-color: #f4511e;
-  border: none;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 14px;
-  padding: 10px;
-  width: 200px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
 }
 
 .button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
 }
 
 .button span:after {
-  content: '»';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
 }
 
 .button:hover span {
-  padding-right: 25px;
+    padding-right: 25px;
 }
 
 .button:hover span:after {
-  opacity: 1;
-  right: 0;
+    opacity: 1;
+    right: 0;
 }
 
 div.img {
@@ -432,14 +437,14 @@ div.desc {
     width: 24.99999%;
 }
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 700px) {
     .responsive {
         width: 49.99999%;
         margin: 6px 0;
     }
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 500px) {
     .responsive {
         width: 100%;
     }
@@ -452,15 +457,15 @@ div.desc {
 }
 
 .committeeImages {
-  border: 1px solid black;
-  width: 146px;
-  height: 161px;
+    border: 1px solid black;
+    width: 146px;
+    height: 161px;
 }
 
 .width {
-  width: 70%;
+    width: 70%;
 }
 
 .img-width {
-  width: 200px;
+    width: 200px;
 }
